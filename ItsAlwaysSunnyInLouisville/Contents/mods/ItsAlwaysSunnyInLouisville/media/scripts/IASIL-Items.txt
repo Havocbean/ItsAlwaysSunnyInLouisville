@@ -1,0 +1,277 @@
+module ItsAlwaysSunnyInLouisville
+{
+    imports
+    {
+        Base
+
+    }
+
+/***********************FOOD***********************/
+
+	item Milksteak
+	{
+		DisplayName = Milksteak,
+		DisplayCategory = Food,
+		Type = Food,
+		Weight = 0.3,
+		Icon = Milksteak,
+		BadCold = true,
+		BadInMicrowave = true,
+		DangerousUncooked = false,
+		EvolvedRecipe = Pizza:20;Stew:20;Stir fry Griddle Pan:20;Stir fry:20;Sandwich:5|Cooked;Sandwich Baguette:5|Cooked;Salad:10|Cooked;Roasted Vegetables:20;PastaPot:20;PastaPan:20;RicePot:20;RicePan:20;Taco:20|Cooked;Burrito:20|Cooked,
+		FoodType = Beef,
+		GoodHot = true,
+		IsCookable = TRUE,
+		MinutesToCook = 150,
+		MinutesToBurn = 70,
+		DaysFresh = 12,
+		DaysTotallyRotten = 28,
+		HungerChange = -55,
+		Calories = 320,
+		Carbohydrates = 23,
+		Lipids = 12.25,
+		Proteins = 55,
+		WorldStaticModel = Milksteak,
+	}
+
+	item RumHam
+	{
+		DisplayName = Rum Ham,
+		DisplayCategory = Food,
+		Type = Food,
+		Weight = 0.3,
+		Icon = Ham,
+		AlcoholPower 		    = -2,
+		BadCold = true,
+		BadInMicrowave = true,
+		DangerousUncooked = false,
+		EvolvedRecipe = Pizza:20;Stew:20;Stir fry Griddle Pan:20;Stir fry:20;Sandwich:5|Cooked;Sandwich Baguette:5|Cooked;Salad:10|Cooked;Roasted Vegetables:20;PastaPot:20;PastaPan:20;RicePot:20;RicePan:20;Taco:20|Cooked;Burrito:20|Cooked,
+		FoodType = Pork,
+		GoodHot = true,
+		IsCookable = TRUE,
+		MinutesToCook = 150,
+		MinutesToBurn = 170,
+		DaysFresh = 12,
+		DaysTotallyRotten = 32,
+		HungerChange = -55,
+		Calories = 320,
+		Carbohydrates = 23,
+		Lipids = 12.25,
+		Proteins = 55,
+		WorldStaticModel = Ham,
+	}
+
+	item MacsMacAndCheeseBowl
+	{
+		DisplayName = Bowl of Mac's Famous Mac and Cheese,
+		DisplayCategory = Food,
+		Type = Food,
+		Weight = 2,
+		Icon = MacsMacAndCheeseBowl,
+		HungerChange = -80,
+		ThirstChange = 60,
+		UnhappyChange = 40,
+		Calories = 3360,
+		Carbohydrates = 656,
+		Lipids = 16,
+		Proteins = 212,
+		WorldStaticModel = MacsMacAndCheeseBowl,
+	}
+
+	item MacsMacAndCheeseBox
+	{
+		DisplayName = Mac's Famous Mac and Cheese,
+		DisplayCategory = Food,
+		Type = Food,
+		Weight = 2,
+		Icon = MacsMacAndCheeseBox,
+		Packaged = TRUE,
+		HungerChange = -80,
+		ThirstChange = 60,
+		UnhappyChange = 40,
+		Calories = 3360,
+		Carbohydrates = 656,
+		Lipids = 16,
+		Proteins = 212,
+		WorldStaticModel = MacsMacAndCheeseBox,
+	}
+
+
+	item FranksCreamPie
+	{
+       	Type				=		Food,
+        DisplayName			=		Frank's Cream Pie,
+        Icon				=		FranksCreamPie,
+        Weight				=		0.1,
+        HungerChange 			=		-10,
+        UnhappyChange	    		=	    	-25,
+        Carbohydrates 			= 		135,
+        Proteins 			= 		23,
+        Lipids 				= 		25,
+        Calories 			= 		480,
+        WorldStaticModel 		= 		FranksCreamPie
+	}
+
+	item PocketSausage
+	{
+		DisplayName = Pocket Sausage,
+		DisplayCategory = Food,
+		Type = Food,
+		Weight = 0.1,
+		Icon = Sausage,
+		BadCold = false,
+		DangerousUncooked = false,
+		EvolvedRecipe = Pizza:20;Stew:20;Stir fry Griddle Pan:20;Stir fry:20;Burger:20|Cooked;Roasted Vegetables:20;PastaPot:20;PastaPan:20;RicePot:20;RicePan:20;Taco:5|Cooked;Burrito:10|Cooked,
+		FoodType = Sausage,
+		GoodHot = true,
+		IsCookable = TRUE,
+		MinutesToCook = 50,
+		MinutesToBurn = 70,
+		DaysFresh = 2,
+		DaysTotallyRotten = 4,
+		HungerChange = -30,
+		Calories = 280,
+		Carbohydrates = 0,
+		Lipids = 4.35,
+		Proteins = 15.62,
+		WorldStaticModel = Sausage_Ground,
+	}
+
+/***********************DRINKS***********************/
+
+item FightMilk
+	{
+	DisplayCategory 	= Food,
+	HungerChange		= -18,
+	Weight			= 0.8,
+	Type			= Food,
+	UnhappyChange		= -15,
+	ThirstChange		= -105,
+	DisplayName		= Fight Milk,
+	Icon			= FightMilk,
+	CustomContextMenu 	= Drink,
+	CustomEatSound 		= DrinkingFromBottlePlastic,
+	FatigueChange 		= -100,
+        Carbohydrates 		= 104,
+        Proteins 		= 200,
+        Lipids 			= 200,
+        Calories 		= 900,
+        Packaged 		= TRUE,
+        CantBeFrozen 		= TRUE,
+        StaticModel 		= FightMilk,
+        EatType 		= bottle,
+        WorldStaticModel 	= FightMilk,
+	}
+
+item Invigaron
+	{
+	DisplayCategory 	= Food,
+	HungerChange		= -18,
+	Weight			= 0.8,
+	Type			= Food,
+	UnhappyChange		= -20,
+	ThirstChange		= -205,
+	DisplayName		= Invigaron,
+	Icon			= Invigaron,
+	CustomContextMenu 	= Drink,
+	CustomEatSound 		= DrinkingFromBottlePlastic,
+	FatigueChange 		= -150,
+        Carbohydrates 		= 104,
+        Proteins 		= 10,
+        Lipids 			= 0,
+        Calories 		= 20,
+        Packaged 		= TRUE,
+        CantBeFrozen 		= TRUE,
+        StaticModel 		= Invigaron,
+        EatType 		= bottle,
+        WorldStaticModel 	= Invigaron,
+	}
+
+item WolfCola
+	{
+	DisplayCategory 	= Food,
+	HungerChange		= -12,
+	Alcoholic	=	TRUE,
+	Weight			= 0.8,
+	Type			= Food,
+	UnhappyChange		= -10,
+	ThirstChange		= -85,
+	DisplayName		= Wolf Cola,
+	Icon			= WolfCola,
+	CustomContextMenu 	= Drink,
+	CustomEatSound 		= DrinkingFromBottlePlastic,
+	AlcoholPower = 2,
+        Carbohydrates 		= 148,
+        Proteins 		= 0,
+        Lipids 			= 0,
+        Calories 		= 280,
+        Packaged 		= TRUE,
+        CantBeFrozen 		= TRUE,
+        StaticModel 		= WolfCola,
+        EatType 		= bottle,
+        WorldStaticModel 	= WolfCola,
+	}
+
+item GreenPaintDrink
+	{
+	DisplayCategory 	= Food,
+	HungerChange		= -32,
+	Weight			= 5,
+	Type			= Food,
+	UnhappyChange		= 10,
+	ThirstChange		= 1,
+	DisplayName		= Green Paint (Drink),
+	Icon			= GreenPaintDrink,
+	CustomContextMenu 	= Drink,
+	CustomEatSound 		= DrinkingFromBottlePlastic,
+        Carbohydrates 		= 0,
+        Proteins 		= 0,
+        Lipids 			= 0,
+        Calories 		= 900,
+        Packaged 		= TRUE,
+        CantBeFrozen 		= TRUE,
+        StaticModel 		= GreenPaintDrink,
+        EatType 		= bottle,
+        WorldStaticModel 	= GreenPaintDrink
+	}
+
+item RiotJuice
+	{
+	HungerChange	=	-20,
+	Weight	=	0.7,
+	Type	=	Food,
+	Alcoholic	=	TRUE,
+	ThirstChange	=	-20,
+	DisplayName	=	Riot Juice,
+	UnhappyChange	=	-10,
+	Icon	=	RiotJuice,
+	CustomContextMenu = Drink,
+	CustomEatSound = DrinkingFromBottle,
+	AlcoholPower = -8,
+	Carbohydrates = 120,
+	Proteins = 0,
+	Lipids = 0,
+	Calories = 1500,
+	Packaged = TRUE,
+	CantBeFrozen = TRUE,
+	StaticModel = RiotJuice,
+	EatType = Bourbon,
+	}
+
+/***********************ITEMS***********************/
+
+item CharDeeMacDennis
+	{
+		DisplayName                 = Chareee Macdennis,
+       		DisplayCategory 	    = Entertainment,
+       		Type			    = Normal,
+		BoredomChange		    = -50,
+		StressChange		    = -15,
+		Weight                      = 0.2,
+		Icon                        = ChardeeMacdennis,
+		CustomContextMenu           = Play Chardee Macdennis 2,
+		StaticModel                 = ChardeeMacdennis,
+		WorldStaticModel            = ChardeeMacdennis,
+	}
+
+}

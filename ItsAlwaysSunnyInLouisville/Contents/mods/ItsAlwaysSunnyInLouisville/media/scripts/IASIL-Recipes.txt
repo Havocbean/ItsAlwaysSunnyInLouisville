@@ -1,0 +1,63 @@
+module ItsAlwaysSunnyInLouisville
+{
+    imports
+    {
+        Base
+
+    }
+
+/***********************RECIPES***********************/
+
+recipe Milksteak
+	{
+       		SkillRequired:Cooking=2,
+		keep Pan,
+		Steak,
+		Milk,
+		Jellybeans/Jujubes,
+		Result:Milksteak,
+    		NeedToBeLearn:true, 
+    		Sound:SliceMeat,
+		Time:100.0,
+	   	Category:Cooking,
+    		OnGiveXP:Give10CookingXP,
+	}
+
+recipe Rum Ham
+	{
+       		SkillRequired:Cooking=4,
+		keep Pan,
+		Ham,
+		Rum,
+		CannedPineapple,
+    		Sound:SliceMeat,
+		Result:RumHam,
+    		NeedToBeLearn:true, 
+		Time:500.0,
+	   	Category:Cooking,
+	}
+
+recipe Mac's Famous Mac and Cheese
+	{
+       		SkillRequired:Cooking=1,
+		keep Pot,
+		Macandcheese,
+		Smallanimalmeat,
+		Result:MacsMacAndCheeseBowl,
+    		NeedToBeLearn:true, 
+		Time:500.0,
+	   	Category:Cooking,
+	}
+
+recipe Pocket Sausage
+	{
+       		SkillRequired:Cooking=1,
+		keep Pan,
+		Sausage,
+		BandageDirty,
+		Result:PocketSausage,
+    		NeedToBeLearn:true, 
+		Time:5.0,
+	   	Category:Cooking,
+	}
+}

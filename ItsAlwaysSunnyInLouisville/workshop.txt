@@ -1,0 +1,8 @@
+version=1
+id=3294319897
+title=It's Always Sunny In Louisville
+description=Visit the worst bar in Kentucky, Paddy's Pub. Enjoy a refreshing Wolf Cola, work out with some Fight Milk, and enjoy one of Frank's Delicious Creampies. Still a little peckish? Why not fix yourself some of Mac's Famous Mac and Cheese or whip up some Rum Ham? The possibilities are endless.
+description=
+description=Will you run into characters you know and love from the hit TV show "It's Always Sunny in Philadelphia", such as Frank Reynolds, Charlie Kelly, Sweet Dee, the McPoyles, Mac, Country Mac, Gail the Snail, or Dennis? Will beloved characters invite you to partake in apocalypse fueled hijinks? Will you find yourself amidst another scheme to thwart the owners and patrons of Paddy's Pub?
+tags=Build 41;Building;Food;Map;Multiplayer;Pop Culture;Realistic;Silly/Fun;Textures
+visibility=public
